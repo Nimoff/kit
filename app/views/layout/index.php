@@ -77,6 +77,6 @@
     <?= $content ?>
     <footer class="footer">©Кит</footer>
   </div>
-  <script src="public/scripts/main.js"></script>
+  <script src="public/scripts/getResponse.js"></script>
 </body>
 </html>

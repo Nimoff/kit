@@ -5,6 +5,7 @@ class MainController extends Controller
 {
     public function indexAction()
     {
-        $this->getView()->render($this->getModel()->getResult());
+        //$this->getModel()->getResult()
+        $this->getView()->render();
     }
 }
