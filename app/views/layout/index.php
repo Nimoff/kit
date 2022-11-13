@@ -73,6 +73,7 @@
         <div class="item_f"><a href="#">БОМЖ: <b>5</b></a></div>
       </div>
     </div>
+
     <?= $content ?>
     <footer class="footer">©Кит</footer>
   </div>
