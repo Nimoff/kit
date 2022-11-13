@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Roboto:wght@700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  max-width: 1580px;
+  min-width: 430px;
+  margin: auto;
+
+}
+.header{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background: #262EC1;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+}
+.top_header{
+  height: 50px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+  color: #fff;
+  padding: 0 30px 0 30px;
+}
+.nav{
+  height: 30px;
+  background: #fff;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.nav ul{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.nav li{
+  list-style-type: none;
+  padding: 5px;
+}
+
+.nav li:hover{
+  background: #A8CAFD;
+  border-radius: 0 0 7px 7px;
+}
+
+.nav li a{
+  text-decoration: none;
+  color: #242582;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav .active{
+  background: #262EC1;
+  border-radius: 0 0 7px 7px;
+}
+.nav .active:hover{
+  background: #1E24AE;
+  border-radius: 0 0 7px 7px;
+}
+.nav .active a{
+  color: white;
+}
+.nav a:hover{
+  color: white;
+}
+.main{
+  flex-grow: 1;
+}
+.footer{
+  width: 100%;
+  height: 50px;
+  margin: 20px auto;
+  background: #1E24AE;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  color: #fff;
+}
+
+.logo{
+  font-family: Roboto;
+  font-size: 30px;
+}
+
+.all_filtr{
+  margin-top: 50px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-around;
+  -ms-align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.filtr{
+  margin-top: 10px;
+}
+.form_filtr{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.form-select{
+  width: 150px;
+}
+.padding_left{
+  margin-left: 10px;
+}
+
+.search{
+  margin-top: 10px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.form_search{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.content{
+  width: 80%;
+  min-width: 430px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.items_filtr{
+  margin-top: 20px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  height: 70px;
+  flex-wrap: wrap;
+}
+.item_f{
+  margin-left: 20px;
+}
+.item_f a{
+  text-decoration: none;
+}
+.item_f a:hover{
+  text-decoration: underline;
+}
+.table th{
+  border-bottom: 2px solid #1E24AE;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+.table{
+  text-align: center;
+}
+.number{
+  width: 10px;
+}
+.FIO{
+  width: 300px;
+}
+.birthday{
+  width: 150px;
+}
+.age{
+  width: 50px;
+}
+.enter{
+  width: 150px;
+}
+.registration{
+  width: 300px;
+}
+@media(max-width:600px){
+  .name, .birthday, .age, .enter, .registration{
+    display: none;
+  }
+}
